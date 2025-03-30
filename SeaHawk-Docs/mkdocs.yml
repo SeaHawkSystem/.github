@@ -1,0 +1,16 @@
+site_name: SeaHawk Missile Software
+
+theme:
+  name: material
+#   name: readthedocs
+
+
+nav:
+- Home: index.md
+- Architecture:
+  - UseCase Scenario: Architecture/UseCase_Scenario.md
+- Convention: 
+  - Convention/coding-style.md
+  - Convention/commit-convention.md
+  - Convention/branch-strategy.md
+- License: License/license.md

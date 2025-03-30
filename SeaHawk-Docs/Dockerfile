@@ -7,5 +7,5 @@ RUN pip install --upgrade pip && \
 				mkdocs-material \
 				pyyaml
 
-# CMD ["mkdocs", "serve", "-a", "0.0.0.0:8888"]
-CMD ["bin/sh"]
+CMD ["mkdocs", "serve", "-a", "0.0.0.0:8888"]
+# CMD ["bin/sh"]
