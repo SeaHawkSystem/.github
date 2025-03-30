@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../../Architecture/Sequence_Diagram/">
+        <link rel="prev" href="../Use_Case_Scenario/">
       
       
-        <link rel="next" href="../commit-convention/">
+        <link rel="next" href="../Sequence_Diagram/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>📝 코딩 스타일 가이드 - SeaHawk Missile Software</title>
+        <title>UseCase Diagram - SeaHawk Missile Software</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#use-case" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              📝 코딩 스타일 가이드
+              UseCase Diagram
             
           </span>
         </div>
@@ -210,18 +210,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -237,7 +239,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Architecture
@@ -251,7 +253,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Architecture/" class="md-nav__link">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -274,7 +276,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Architecture/Use_Case_Scenario/" class="md-nav__link">
+      <a href="../Use_Case_Scenario/" class="md-nav__link">
         
   
   
@@ -294,10 +296,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../Architecture/Use_Case_Diagram/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    UseCase Diagram
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -308,6 +332,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ecs" class="md-nav__link">
+    <span class="md-ellipsis">
+      교전통제소(ECS)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      발사대
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      미사일
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      탐색기
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mfr" class="md-nav__link">
+    <span class="md-ellipsis">
+      MFR
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -320,7 +409,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../Architecture/Sequence_Diagram/" class="md-nav__link">
+      <a href="../Sequence_Diagram/" class="md-nav__link">
         
   
   
@@ -347,20 +436,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
         
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
@@ -376,7 +463,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_3">
             <span class="md-nav__icon md-icon"></span>
             Convention
@@ -387,32 +474,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    📝 코딩 스타일 가이드
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../Convention/coding-style/" class="md-nav__link">
         
   
   
@@ -423,95 +488,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#1-naming-convention" class="md-nav__link">
-    <span class="md-ellipsis">
-      1. 네이밍 규칙 (Naming Convention)
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="1. 네이밍 규칙 (Naming Convention)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#_2" class="md-nav__link">
-    <span class="md-ellipsis">
-      변수명
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_3" class="md-nav__link">
-    <span class="md-ellipsis">
-      함수명
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      상수
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-indentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 코드 인덴트 (Indentation)
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. 주석 스타일
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 파일명 및 디렉터리 구조
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -524,7 +500,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../commit-convention/" class="md-nav__link">
+      <a href="../../Convention/commit-convention/" class="md-nav__link">
         
   
   
@@ -547,7 +523,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../branch-strategy/" class="md-nav__link">
+      <a href="../../Convention/branch-strategy/" class="md-nav__link">
         
   
   
@@ -619,69 +595,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#1-naming-convention" class="md-nav__link">
+  <a href="#ecs" class="md-nav__link">
     <span class="md-ellipsis">
-      1. 네이밍 규칙 (Naming Convention)
+      교전통제소(ECS)
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="1. 네이밍 규칙 (Naming Convention)">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      발사대
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
-      변수명
+      미사일
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#_3" class="md-nav__link">
     <span class="md-ellipsis">
-      함수명
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#_4" class="md-nav__link">
-    <span class="md-ellipsis">
-      상수
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-indentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. 코드 인덴트 (Indentation)
+      탐색기
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#3" class="md-nav__link">
+  <a href="#mfr" class="md-nav__link">
     <span class="md-ellipsis">
-      3. 주석 스타일
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. 파일명 및 디렉터리 구조
+      MFR
     </span>
   </a>
   
@@ -703,47 +655,17 @@
 
 
 
-<h1 id="_1">📝 코딩 스타일 가이드<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<h2 id="1-naming-convention">1. 네이밍 규칙 (Naming Convention)<a class="headerlink" href="#1-naming-convention" title="Permanent link">#</a></h2>
-<h3 id="_2">변수명<a class="headerlink" href="#_2" title="Permanent link">#</a></h3>
-<ul>
-<li><strong>카멜케이스(CamelCase) 사용:</strong> <code>int missileSpeed;</code></li>
-<li><strong>멤버 변수는 <code>_</code> 접미사:</strong> <code>int mMissileSpeed;</code></li>
-</ul>
-<h3 id="_3">함수명<a class="headerlink" href="#_3" title="Permanent link">#</a></h3>
-<ul>
-<li><strong>동사 + 명사 형태 사용:</strong> <code>void LaunchMissile();</code></li>
-</ul>
-<h3 id="_4">상수<a class="headerlink" href="#_4" title="Permanent link">#</a></h3>
-<ul>
-<li><strong>대문자 + 언더스코어:</strong> <code>const int MAX_RANGE = 1000;</code></li>
-</ul>
-<h2 id="2-indentation">2. 코드 인덴트 (Indentation)<a class="headerlink" href="#2-indentation" title="Permanent link">#</a></h2>
-<ul>
-<li><strong>공백 4칸 대신 탭 사용</strong></li>
-<li><code>{}</code> 블록은 항상 개행 후 사용  </li>
-</ul>
-<pre><code class="language-cpp">if (isReady) 
-{
-    FireMissile();
-}
-</code></pre>
-<h2 id="3">3. 주석 스타일<a class="headerlink" href="#3" title="Permanent link">#</a></h2>
-<ul>
-<li>한 줄 주석: // 사용</li>
-<li>여러 줄 주석: /**/ 사용</li>
-</ul>
-<pre><code class="language-cpp">/**
- * @brief 미사일을 발사하는 함수
- * @param target 좌표
- */
-void FireMissile(Coordinates target);
-</code></pre>
-<h2 id="4">4. 파일명 및 디렉터리 구조<a class="headerlink" href="#4" title="Permanent link">#</a></h2>
-<ul>
-<li>파일명: PascalCase 사용 (MissileControl.cpp)</li>
-<li>헤더 파일: .h 확장자 사용 (MissileControl.h)</li>
-</ul>
+<h1 id="use-case">Use Case 다이어그램<a class="headerlink" href="#use-case" title="Permanent link">#</a></h1>
+<h2 id="ecs">교전통제소(ECS)<a class="headerlink" href="#ecs" title="Permanent link">#</a></h2>
+<p><img alt="교전통제소 유스케이스 다이어그램" src="../../assets/usecase_ECS.png" /></p>
+<h2 id="_1">발사대<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p><img alt="발사대 유스케이스 다이어그램" src="../../assets/usecase_Launcher.png" /></p>
+<h2 id="_2">미사일<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p><img alt="미사일 유스케이스 다이어그램" src="../../assets/usecase_Missile.png" /></p>
+<h2 id="_3">탐색기<a class="headerlink" href="#_3" title="Permanent link">#</a></h2>
+<p><img alt="탐색기 유스케이스 다이어그램" src="../../assets/usecase_Seeker.png" /></p>
+<h2 id="mfr">MFR<a class="headerlink" href="#mfr" title="Permanent link">#</a></h2>
+<p><img alt="MFR 유스케이스 다이어그램" src="../../assets/usecase_MFR.png" /></p>
 
 
 
