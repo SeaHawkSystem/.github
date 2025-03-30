@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  mkdocs:
+    container_name: mkdocs
+    build: ./SeaHawk-Docs
+    pull_policy: never
+    volumes:
+      - ./:/home
+    working_dir: /home/SeaHawk-Docs
+    ports:
+      - 8888:8888
+    #command: sh run.sh
