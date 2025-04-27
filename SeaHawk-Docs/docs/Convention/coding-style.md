@@ -4,7 +4,7 @@
 
 ### 변수명
 - **카멜케이스(CamelCase) 사용:** `int missileSpeed;`
-- **멤버 변수는 `_` 접미사:** `int mMissileSpeed;`
+- **멤버 변수는 `_` 접두사:** `int _MissileSpeed;`
 
 ### 함수명
 - **동사 + 명사 형태 사용:** `void LaunchMissile();`
@@ -38,4 +38,3 @@ void FireMissile(Coordinates target);
 ## 4. 파일명 및 디렉터리 구조
 - 파일명: PascalCase 사용 (MissileControl.cpp)
 - 헤더 파일: .h 확장자 사용 (MissileControl.h)
-

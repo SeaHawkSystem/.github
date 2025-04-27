@@ -11,6 +11,9 @@ nav:
   - UseCase Scenario: Architecture/Use_Case_Scenario.md
   - UseCase Diagram: Architecture/Use_Case_Diagram.md
   - Sequence Diagram: Architecture/Sequence_Diagram.md
+  - Architecture/CSCI.md
+  - Architecture/System_Architecture.md
+  - Architecture/Activity_Diagram.md
 - Convention: 
   - Convention/coding-style.md
   - Convention/commit-convention.md

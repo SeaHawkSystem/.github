@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../CSCI/">
       
       
-        <link rel="next" href="Use_Case_Scenario/">
+        <link rel="next" href="../Activity_Diagram/">
       
       
-      <link rel="icon" href="../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
     
     
       
-        <title>아키텍처 설계 과정 - SeaHawk Missile Software</title>
+        <title>System Architecture - SeaHawk Missile Software</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2afb09e1.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.2afb09e1.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#system-architecture" class="md-skip">
           Skip to content
         </a>
       
@@ -78,7 +78,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="SeaHawk Missile Software" class="md-header__button md-logo" aria-label="SeaHawk Missile Software" data-md-component="logo">
+    <a href="../.." title="SeaHawk Missile Software" class="md-header__button md-logo" aria-label="SeaHawk Missile Software" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              아키텍처 설계 과정
+              System Architecture
             
           </span>
         </div>
@@ -176,7 +176,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="SeaHawk Missile Software" class="md-nav__button md-logo" aria-label="SeaHawk Missile Software" data-md-component="logo">
+    <a href="../.." title="SeaHawk Missile Software" class="md-nav__button md-logo" aria-label="SeaHawk Missile Software" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -194,7 +194,7 @@
   
   
     <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -253,32 +253,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    아키텍처 설계 과정
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
         
   
   
@@ -289,35 +267,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#gui" class="md-nav__link">
-    <span class="md-ellipsis">
-      GUI 예시
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -330,7 +279,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Use_Case_Scenario/" class="md-nav__link">
+      <a href="../Use_Case_Scenario/" class="md-nav__link">
         
   
   
@@ -353,7 +302,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Use_Case_Diagram/" class="md-nav__link">
+      <a href="../Use_Case_Diagram/" class="md-nav__link">
         
   
   
@@ -376,7 +325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Sequence_Diagram/" class="md-nav__link">
+      <a href="../Sequence_Diagram/" class="md-nav__link">
         
   
   
@@ -399,7 +348,7 @@
   
   
     <li class="md-nav__item">
-      <a href="CSCI/" class="md-nav__link">
+      <a href="../CSCI/" class="md-nav__link">
         
   
   
@@ -419,10 +368,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="System_Architecture/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    System Architecture
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -433,6 +404,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      발사대
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mfr" class="md-nav__link">
+    <span class="md-ellipsis">
+      MFR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      미사일
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ECS 설계
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gateway 설계
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -445,7 +481,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Activity_Diagram/" class="md-nav__link">
+      <a href="../Activity_Diagram/" class="md-nav__link">
         
   
   
@@ -513,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Convention/coding-style/" class="md-nav__link">
+      <a href="../../Convention/coding-style/" class="md-nav__link">
         
   
   
@@ -536,7 +572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Convention/commit-convention/" class="md-nav__link">
+      <a href="../../Convention/commit-convention/" class="md-nav__link">
         
   
   
@@ -559,7 +595,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Convention/branch-strategy/" class="md-nav__link">
+      <a href="../../Convention/branch-strategy/" class="md-nav__link">
         
   
   
@@ -589,7 +625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../License/license/" class="md-nav__link">
+      <a href="../../License/license/" class="md-nav__link">
         
   
   
@@ -631,9 +667,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#gui" class="md-nav__link">
+  <a href="#_1" class="md-nav__link">
     <span class="md-ellipsis">
-      GUI 예시
+      발사대
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mfr" class="md-nav__link">
+    <span class="md-ellipsis">
+      MFR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      미사일
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ecs" class="md-nav__link">
+    <span class="md-ellipsis">
+      ECS 설계
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gateway" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gateway 설계
     </span>
   </a>
   
@@ -655,17 +727,33 @@
 
 
 
-<h1 id="_1">아키텍처 설계 과정<a class="headerlink" href="#_1" title="Permanent link">#</a></h1>
-<ol>
-<li>요구사항을 기반으로 <a href="Use_Case_Scenario/">🔗Use Case Scenario</a> 작성</li>
-<li><a href="Use_Case_Diagram/">🔗Use Case Diagram</a> 작성</li>
-<li><a href="Sequence_Diagram/">🔗Sequence Diagram</a> 작성</li>
-<li><a href="CSCI/">🔗CSCI</a> 식별</li>
-<li><a href="System_Architecture/">🔗시스템 구조 설계</a>: Class Diagram</li>
-<li><a href="Activity_Diagram/">🔗Activity Diagram</a></li>
-</ol>
-<h2 id="gui">GUI 예시<a class="headerlink" href="#gui" title="Permanent link">#</a></h2>
-<p><img alt="GUI 예시" src="../assets/example_GUI.png" /></p>
+<h1 id="system-architecture">System Architecture<a class="headerlink" href="#system-architecture" title="Permanent link">#</a></h1>
+<ul>
+<li>전체 구조
+<img alt="전체 구조" src="../../assets/system_structure.png" /></li>
+</ul>
+<h2 id="_1">발사대<a class="headerlink" href="#_1" title="Permanent link">#</a></h2>
+<p><img alt="발사대 구조 설계" src="../../assets/class_Launcher.png" /></p>
+<h2 id="mfr">MFR<a class="headerlink" href="#mfr" title="Permanent link">#</a></h2>
+<p><img alt="MFR 구조 설계" src="../../assets/class_MFR.png" /></p>
+<h2 id="_2">미사일<a class="headerlink" href="#_2" title="Permanent link">#</a></h2>
+<p><img alt="미사일 구조 설계" src="../../assets/class_Missile.png" /></p>
+<details>
+<summary>미사일 </summary>
+<img alt="미사일 설계 고찰" src="../../assets/class_Missile_old.png">
+<p1>
+미사일의 존재 의의<br>
+표적을 추적하여 섬멸할 수 있어야 하는 것.<br>
+표적을 추적할 수 있어야 한다. -> 추적을 하려다 보니 항법이 필요한 것이다.<br>
+<br>
+정리: 항법은 표적 추적의 하위 비즈니스 룰이다.
+</p1>
+</details>
+
+<h2 id="ecs">ECS 설계<a class="headerlink" href="#ecs" title="Permanent link">#</a></h2>
+<p><img alt="ECS 구조 설계" src="../../assets/class_ECS.png" /></p>
+<h2 id="gateway">Gateway 설계<a class="headerlink" href="#gateway" title="Permanent link">#</a></h2>
+<p><img alt="Gateway 구조 설계" src="../../assets/class_Gateway.png" /></p>
 
 
 
@@ -714,10 +802,10 @@
     
     
       
-      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../assets/javascripts/bundle.c8b220af.min.js"></script>
       
     
   </body>

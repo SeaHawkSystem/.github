@@ -11,11 +11,11 @@
 | `chore` | 빌드, 의존성 업데이트 |
 
 ## 커밋 메시지 작성 요령
-- 영문 vs 한글
+- 한글
 
 ### feat
 ```
-feat: Add missile tracking algorithm #이슈번호
+feat: Add missile tracking algorithm #1
 
 - Implement Kalman filter for target tracking
 - Improve accuracy of missile trajectory calculation
