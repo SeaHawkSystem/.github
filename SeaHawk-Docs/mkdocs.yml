@@ -7,17 +7,17 @@ theme:
 nav:
 - Home: index.md
 - Architecture:
-  - Architecture/index.md
+  - 아키텍처 설계과정: Architecture/index.md
   - UseCase Scenario: Architecture/Use_Case_Scenario.md
   - UseCase Diagram: Architecture/Use_Case_Diagram.md
   - Sequence Diagram: Architecture/Sequence_Diagram.md
-  - Architecture/CSCI.md
-  - Architecture/System_Architecture.md
-  - Architecture/Activity_Diagram.md
+  - CSCI: Architecture/CSCI.md
+  - 시스템 아키텍처 설계: Architecture/System_Architecture.md
+  - Activity Diagram: Architecture/Activity_Diagram.md
 - Convention: 
-  - Convention/coding-style.md
-  - Convention/commit-convention.md
-  - Convention/branch-strategy.md
+  - 코딩 스타일 가이드: Convention/coding-style.md
+  - 커밋 컨벤션: Convention/commit-convention.md
+  - 브랜치 전략: Convention/branch-strategy.md
 - License: License/license.md
 
 markdown_extensions:
